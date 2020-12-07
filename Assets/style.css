@@ -12,6 +12,8 @@ body {
     text-align: right;
 }
 
+/* Styles related to index.html  */
+
 .container-sm {
     padding: 20px;
 }
@@ -34,4 +36,11 @@ h1 {
 #bio-img {
     float:left;
     margin-right: 15px;
+}
+
+/* Styles related to contact.html */
+
+.btn {
+    background-color: #4aaaa5;
+    border: #4aaaa5;
 }
