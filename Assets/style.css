@@ -1,5 +1,6 @@
 body {
     background-image: url(./images/ignasi_pattern_s.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-light .navbar-brand {
@@ -48,6 +49,12 @@ h1 {
     color: white;
     
 }
+
+.btn:hover {
+    background-color: #b3d3d3;
+    color: #646565 !important;
+}
+
 /* Styles related to portfolio.html */
 
 
@@ -65,4 +72,9 @@ h1 {
     text-align: center;
     border-top: 5px;
 
+  }
+
+  .footer-border {
+      background-color: #4aaaa5;
+      height: 10px;
   }
