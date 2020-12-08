@@ -16,65 +16,88 @@
     <link rel="stylesheet" href="./Assets/style.css" />
   </head>
   <body>
+    <div class="content">
+      <!-- This is the Navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Spencer Vaughan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links  -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html"
+                >Contact<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >About Me<span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <!-- This is the Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="./index.html">Spencer Vaughan</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Navbar links  -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html"
-              >Contact<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html"
-              >Portfolio<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html"
-              >About Me<span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <!-- About Me Container  -->
 
-  <!-- About Me Container  -->
-
-    <div class="container-sm">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="row">
-            <h1>About Me</h1>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-12">
-              <img src="Assets/images/about-me-photo.png" id="bio-img" alt="Spencer and Bruce the Dog" width="150px" height="207px">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odit quaerat magni, consectetur cum sed rerum doloremque. Dignissimos similique repellat magnam maiores dolores eligendi quidem unde deleniti illum, possimus odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum animi nostrum ex, autem minus blanditiis assumenda molestias ipsa quas esse rem illum unde labore rerum, porro quam? Enim, eum voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsum reiciendis, voluptate similique nemo deserunt omnis assumenda iste explicabo labore accusantium, hic possimus incidunt quos, est nostrum corporis sint maxime.</p>
-              <br>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quos consequuntur qui tempora eius. Neque assumenda praesentium aspernatur tenetur, corrupti repellat sit ut provident maiores suscipit, earum minima molestias molestiae!</p>
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <h1>About Me</h1>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-12">
+                <img
+                  src="Assets/images/about-me-photo.png"
+                  id="bio-img"
+                  alt="Spencer and Bruce the Dog"
+                  width="150px"
+                  height="207px"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                  odit quaerat magni, consectetur cum sed rerum doloremque.
+                  Dignissimos similique repellat magnam maiores dolores eligendi
+                  quidem unde deleniti illum, possimus odit! Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit. Dolorum animi nostrum
+                  ex, autem minus blanditiis assumenda molestias ipsa quas esse
+                  rem illum unde labore rerum, porro quam? Enim, eum voluptate?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  ipsum reiciendis, voluptate similique nemo deserunt omnis
+                  assumenda iste explicabo labore accusantium, hic possimus
+                  incidunt quos, est nostrum corporis sint maxime.
+                </p>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  quos consequuntur qui tempora eius. Neque assumenda
+                  praesentium aspernatur tenetur, corrupti repellat sit ut
+                  provident maiores suscipit, earum minima molestias molestiae!
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
+          <div class="col-md-4"></div>
         </div>
       </div>
     </div>
-
     <!-- The footer goes here -->
 
     <footer class="footer">
@@ -83,7 +106,6 @@
         <span class="text-muted">© Copyright</span>
       </div>
     </footer>
-
 
     <script src="" async defer></script>
     <script

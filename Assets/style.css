@@ -1,6 +1,20 @@
+html body {
+    height: 100%;
+}
+
 body {
     background-image: url(./images/ignasi_pattern_s.png);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
 }
 
 .navbar-light .navbar-brand {
