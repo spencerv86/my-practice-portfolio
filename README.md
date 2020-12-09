@@ -1,89 +1,82 @@
-# my-practice-portfolio
+# My Practice Portfolio
+
+## Description
+
+For this project, we were tasked with building a web portfolio from scratch that could function on a variety of screen sizes (for the purposes of this project, the sizes tested were widths of 992px, 768px, and 400px). This portfolio would consist of three different pages:
+* An About Me/Homepage (with a short bio written to wrap around a small image)
+* A Contact page (with a contact form so users could message the site owner)
+* A Portfolio page (with 5 thumbnails, each representing a piece of one's portfolio)
+
+Within each of these separate pages, there was also meant to be a Navigation bar and footer. All of these elements were meant to be responsive so that the same code worked naturally at each of the required sizes. To accomplish this, I used the Bootstrap CSS Framework and their extensive (and helpful) grid system. To fill out the site, I supplied my own bio for the homepage. Since my portfolio as a programmer is rather limited at this point, I instead included photos of me and several dogs.
+
+---------------------------
+
+The deployed and functional site can be found here: <https://spencerv86.github.io/my-practice-portfolio/>
+
+The full process can be found on my [Github](https://github.com/spencerv86/my-practice-portfolio) repository linked here:
+<https://github.com/spencerv86/my-practice-portfolio>
 
 
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+----------------
+## Table of Contents
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
+------------
+## Installation
 
-## Directions
+To install, fork repository [found here](https://github.com/spencerv86/my-practice-portfolio), then clone to your computer and open in Visual Studio Code or your preferred interface. 
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+------------
+## Usage
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+In the smaller sized pages, the items in the navbar can be found under the toggle button in the top right corner. As well, the name in the top-left can also navigate you to the 'About Me' index page from any of the other pages.
 
-* Using Bootstrap, develop your portfolio site with the following items:
+Here are the three pages built, each in a different size.
 
-   * A navbar
+The 'Portfolio' page at a width of 400px.
 
-   * A responsive layout
+![400p portfolio page](assets/images/400-portfolio-readme-capture.png)
 
-   * Responsive images
+The 'Contact' page at a width of 768px.
 
-* The Bootstrap portfolio should minimize the use of media queries.
+![768p contact page](assets/images/768-contact-readme-capture.png)
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+The 'About Me' page at a width of 992px.
 
-### Hints
+![992p about me page](assets/images/992-index-readme-capture.png)
 
-* Use Bootstrap's grid system (containers, rows, and columns).
+-----------
+## Credits
 
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+Thanks to the members of my cohort and my helpful TAs for their tips and assistance along the way!
 
-* Use an HTML validation service to ensure that each page has valid HTML.
+And much thanks to Bootstrap!
 
-### Minimum Requirements
+------------
+## License
 
-* Functional, deployed application
+MIT License
 
-* GitHub repository with README describing the project
+Copyright (c) [2020] [Spencer Vaughan]
 
-* Navbar must be consistent on each page.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* All links must work.
-
-* Must use semantic html.
-
-* Each page must have valid and correct HTML. (use a validation service)
-
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-* Must properly utilize Bootstrap components and grid system.
-
-### Bonus
-
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
