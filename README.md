@@ -39,15 +39,15 @@ Here are the three pages built, each in a different size.
 
 The 'Portfolio' page at a width of 400px.
 
-![400p portfolio page](./assets/images/400-portfolio-readme-capture.png)
+![400p portfolio page](https://raw.githubusercontent.com/spencerv86/my-practice-portfolio/main/Assets/images/400-portfolio-readme-capture.png)
 
 The 'Contact' page at a width of 768px.
 
-![768p contact page](./assets/images/768-contact-readme-capture.png)
+![768p contact page](https://raw.githubusercontent.com/spencerv86/my-practice-portfolio/main/Assets/images/768-contact-readme-capture.png)
 
 The 'About Me' page at a width of 992px.
 
-![992p about me page](./assets/images/992-index-readme-capture.png)
+![992p about me page](https://raw.githubusercontent.com/spencerv86/my-practice-portfolio/main/Assets/images/992-index-readme-capture.png)
 
 -----------
 ## Credits
