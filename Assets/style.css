@@ -1,92 +1,96 @@
-html body {
-    height: 100%;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    background-image: url(./images/ignasi_pattern_s.png);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
+  background-image: url(./images/ignasi_pattern_s.png);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.content {
-    flex 1 0 auto;
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
 }
 
-.footer {
-    flex-shrink: 0;
-}
+/* Styles relate to the Navbar */
 
 .navbar-light .navbar-brand {
-    color: white;
-    background-color: #4aaaa5;
-    font-weight: bolder;
+  color: white;
+  background-color: #4aaaa5;
+  font-weight: bolder;
 }
 
 #navbarSupportedContent {
-    text-align: right;
+  text-align: right;
 }
 
-/* Styles related to index.html  */
+/* Styles related to main container in all htmls and their headers  */
 
 .container-sm {
-    padding: 20px;
-    margin-bottom: 60px;
+  padding: 20px;
+  margin-bottom: 60px;
 }
 
 .col-md-8 {
-    background-color: white;
-    margin-top: 55px; 
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 30px;
+  background-color: white;
+  margin-top: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px;
 }
 
 h1 {
-    color: #4aaaa5;
-    margin-left: 15px;
-    margin-bottom: -5px;
-    font-weight: bold;
-
+  color: #4aaaa5;
+  margin-left: 15px;
+  margin-bottom: -5px;
+  font-weight: bold;
 }
 
+/* Styles related to index.html */
+
 #bio-img {
-    float:left;
-    margin-right: 15px;
+  float: left;
+  margin-right: 15px;
 }
 
 /* Styles related to contact.html */
 
-.btn {
-    background-color: #4aaaa5;
-    border: #4aaaa5;
-    color: white;
-    
+.btn-lg {
+  background-color: #4aaaa5;
+  border: #4aaaa5;
+  color: white;
 }
 
 .btn:hover {
-    background-color: #b3d3d3;
-    color: #646565 !important;
+  background-color: #b3d3d3;
+  color: #646565 !important;
 }
 
 /* Styles related to portfolio.html */
 
-
+.img-thumbnail {
+    padding: 0;
+}
 
 /* Styles related to the footer */
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 60px; 
-    line-height: 60px; 
-    background-color: #666666;
-    color: #6c757d;
-    text-align: center;
-  }
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #666666;
+  color: #6c757d;
+  text-align: center;
+}
 
-  .footer-border {
-      background-color: #4aaaa5;
-      height: 10px;
-  }
+.footer,
+.push {
+    height: 60px;
+}
+
+.footer-border {
+  background-color: #4aaaa5;
+  height: 10px;
+}
